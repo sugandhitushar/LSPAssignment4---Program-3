@@ -1,0 +1,18 @@
+NAME - program.c
+
+USAGE - 
+$ make
+$ make run
+
+DESCRIPTION - 
+Program which creates single thread and we have to pass parameter to that thread from main thread.
+
+
+Example -
+# make
+gcc -o threadDemo program.c -lpthread
+
+# make run
+./threadDemo
+Argument passed to thread: 10
+Threads terminated.
